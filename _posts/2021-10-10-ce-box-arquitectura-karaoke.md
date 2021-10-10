@@ -4,8 +4,7 @@ title: "CE Box, Arquitectura Karaoke"
 date: 2021-10-10
 ---
 
-4. Estándares de programación
-5. Organización/layout de los proyectos de código
+
 
 El siguiente proyecto es el primer proyecto del curso SOA4ID el cual consiste en la creacion de una karaoke en una arquitectura monolitica.
 Pero para poder desarrollar el diseño de la arquitectura es necesario entender que es una arquitectura monolotica.
@@ -40,6 +39,12 @@ Y por ultimo la base de datos, es una base de datos sencilla pero que su consult
 Es esencial en este punto señalar el sistema de integracion continua y las pruebas unitarias que va a realizar el sistema de DevOps para que el desarrollo de la app sea lo mas libre de errores posible
 
 ## Nivel 3
+En el tercer nivel toca diseñar la parte interna del backend
 
+![Nivel3]({{site.url}}/assets/images/Karaoke-Nivel-3.jpg)
+
+Tenemos entonces los principales modulos de trabajo.El modulo de autenticacion que esta formado por auth Middleware donde se validara que el usuario se autentice, el modulo de inicio de sesion y el modulo de seguridad donde permitira registrar y verificar credenciales.
+
+Para el Karaoke tenemos el Songs Services y Songs Controller que permitira extraer la canciones y ejercer operaciones sobre ellas respectivamente. Todas estas como se habia dicho anteriormente se conectaran a una base de datos mongoDB
 
 ## Nivel 4
