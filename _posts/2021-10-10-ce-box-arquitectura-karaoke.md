@@ -21,7 +21,7 @@ Tomando esto en cuenta se puede diseñar la arquitectura del sistema.
 ## Nivel 1
 
 El sistema tiene en primera instancia va a ser accedido por un publico general que tenga acceso a internet. 
-![Nivel1](img/Karaoke-Nivel1.jpg)
+![Nivel1]({{site.url}}/assets/images/Karaoke-Nivel1.jpg)
 
 Estos usuarios van a acceder a la pagina web de karaoke. El sistema va a estar escuchando al usuario una vez que empiece a cantar y va a estar informando al sistema de procesamiento 
 
