@@ -1,2 +1,3 @@
 name: CE-Box
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
