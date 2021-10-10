@@ -3,9 +3,7 @@ layout: post
 title: "CE Box, Arquitectura Karaoke"
 date: 2021-10-10
 ---
-1. Lenguaje de programación
-2. Frameworks/Toolkits
-3. Tecnología de base de datos
+
 4. Estándares de programación
 5. Organización/layout de los proyectos de código
 
@@ -34,8 +32,13 @@ En este segundo nivel sacamos que el sistema no necesita ninguna aplicacion movi
 
 
 Esta pagina web ademas se va a conectar a un sistema de Backend que proporciona un api donde permitiria hacer las consultas sobre el manejo de usuarios y canciones. Ademas mantengo el sistema de reconocimiento de voz conectado a la api permiento procesar ir generando por ususario un puntaje de acierto.
+Al ser una web-app sencilla la mejor opcion con el framework es Angular, permite versatilidad y libertad para el manejo de la app y la conexion con un api service. Pero no permite la expacion a una app movil por lo que en este caso es una buena opcion.
+
+Para el desarrollo de la api, al ser una app sencilla que permita conectar la base de datos y generar metodos de GET/POST/PATCH/DELETE por lo que la opcion mas sencilla y simple de usar es nodeJS
+Y por ultimo la base de datos, es una base de datos sencilla pero que su consulta permita hacer busquedas a sus datos y sus atributos sensibles a mayusculas/minusculas por lo que la mejor opcion para este caso es una Base de Datos de Mongo en este caso con un schema de moongose
 
 Es esencial en este punto señalar el sistema de integracion continua y las pruebas unitarias que va a realizar el sistema de DevOps para que el desarrollo de la app sea lo mas libre de errores posible
+
 ## Nivel 3
 
 
