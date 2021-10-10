@@ -28,7 +28,7 @@ Estos usuarios van a acceder a la pagina web de karaoke. El sistema va a estar e
 ## Nivel 2
 
 En este nivel se expande el sistema para poder seleccionar los lenguajes de programacion adecuados para el sistema
-![Nivel2](img/Karaoke-Nivel-2.jpg)
+![Nivel2]({{site.url}}/assets/images/Karaoke-Nivel-2.jpg)
 
 En este segundo nivel sacamos que el sistema no necesita ninguna aplicacion movil, simplemente se puede usar una pagina web responsive para cualquier tipo de pantalla. Esta decision esta basada de acuerdo a las especificaciones del proyecto.
 
